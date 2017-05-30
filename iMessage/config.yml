@@ -1,0 +1,9 @@
+recipient: recipient@imessage.address
+mqtt:
+  host: 10.10.0.1
+  port: 1883
+  cacert: /Users/idle/python/ssl/ca.pem
+  cert: /Users/idle/python/ssl/cert.pem
+  key: /Users/idle/python/ssl/key.pem
+topics:
+  - test

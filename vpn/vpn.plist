@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+      <string>de.ofenstichloch.SANDI.vpn</string>
+    <key>ProgramArguments</key>
+      <array>
+          <string>/usr/local/sbin/openvpn</string>
+          <string>/Library/SANDI/vpn/config.ovpn</string>
+      </array>
+    <key>KeepAlive</key>
+      <dict>
+	  <key>NetworkState</key>
+	  <true/>
+      </dict>
+    <key>StandardOutPath</key>
+      <string>/var/log/SANDI/vpn.log</string>
+    <key>StandardErrorPath</key>
+      <string>/var/log/SANDI/vpn.log</string>
+    <key>Debug</key>
+      <true/>
+</dict>
+</plist>
+
