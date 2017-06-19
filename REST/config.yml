@@ -1,0 +1,12 @@
+mqtt:
+  host: 10.10.0.1
+  port: 1883
+  cacert: /path/to/ca.pem
+  cert: /path/to/pub.pem
+  key: /path/to/key.pem
+topics:
+  inputTopic1:
+    - inputClient1
+adminkey: "SuperSecretAdminToken"
+logging:
+  file: /var/log/sandi/input.log
